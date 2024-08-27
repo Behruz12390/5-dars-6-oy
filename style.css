@@ -1,0 +1,27 @@
+.j img {
+    width: 100px;
+    height: 100px;
+    padding-top: 10px;
+    color: green;
+}
+.j{
+    border: 2px solid black;
+    width: 314px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 12px;
+    height: 350px;
+}
+p{
+    font-size: 16px;
+}
+.s{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    width: 1400px;
+    margin: 0 auto;
+}
+.j:nth-child(2n + 9){
+    margin-left: 360px;
+}
